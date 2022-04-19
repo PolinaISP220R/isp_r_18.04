@@ -1,0 +1,103 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+body {
+  background-color: rgb(229 229 229);
+}
+
+.topnav {
+  font-family: "Philosopher";
+  background-color: #ffffff;
+
+  /* overflow: hidden; */
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  /* height: px; */
+
+  /* margin-left: -10px;
+  margin-top: -10px; */
+
+  display: flex;
+  align-items: center;
+
+  
+}
+
+.topnav a {
+  /* float: left; */
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #f0e8e8;
+  color: black;
+}
+
+h2 {
+  text-indent: 96px;
+}
+
+h3 {
+  text-align: left;
+  text-transform: uppercase;
+  text-indent: 96px;
+  line-height: 0.1;
+  margin: 15px;
+  padding: 15px;
+  font-size: 50px;
+}
+
+.snoska {
+  padding: 60px;
+  margin: 15px;
+  font-size: 50px;
+}
+
+.ssilki {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.card {
+    background-color: #FFFFFF;
+    padding: 8px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.content {
+    max-width: 1200px;
+    padding: 16px;
+}
+
+.big-text{
+    font-size: 64px;
+    font-weight: bold;
+    margin: 24px;
+}
+
+.high-text {
+    font-size: 32px;
+    font-weight: bold;
+}
+.norm-text {
+    font-size: 16px;
+    font-weight: normal;
+}
